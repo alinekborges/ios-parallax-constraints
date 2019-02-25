@@ -26,9 +26,6 @@
                                         <subviews>
                                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="saopaulo" translatesAutoresizingMaskIntoConstraints="NO" id="1aC-nP-YP5">
                                                 <rect key="frame" x="0.0" y="0.0" width="414" height="320"/>
-                                                <constraints>
-                                                    <constraint firstAttribute="height" constant="320" id="JKd-jn-KOh"/>
-                                                </constraints>
                                             </imageView>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="5CU-VV-RB2" userLabel="ProfileView">
                                                 <rect key="frame" x="0.0" y="320" width="414" height="813"/>
@@ -112,9 +109,9 @@ If you read it until here, congratulations! If you liked the post and by any cha
                                         <constraints>
                                             <constraint firstItem="5CU-VV-RB2" firstAttribute="leading" secondItem="nhw-5F-NCs" secondAttribute="leading" id="2SP-2z-5vh"/>
                                             <constraint firstItem="5CU-VV-RB2" firstAttribute="top" secondItem="1aC-nP-YP5" secondAttribute="bottom" id="3x1-QP-3VL"/>
+                                            <constraint firstItem="5CU-VV-RB2" firstAttribute="top" secondItem="nhw-5F-NCs" secondAttribute="top" constant="320" id="KpW-Zt-GnK"/>
                                             <constraint firstItem="1aC-nP-YP5" firstAttribute="leading" secondItem="nhw-5F-NCs" secondAttribute="leading" id="WUg-SW-Ypf"/>
                                             <constraint firstAttribute="trailing" secondItem="1aC-nP-YP5" secondAttribute="trailing" id="gKb-cR-WzA"/>
-                                            <constraint firstItem="1aC-nP-YP5" firstAttribute="top" secondItem="nhw-5F-NCs" secondAttribute="top" id="hc4-U6-muc"/>
                                             <constraint firstAttribute="bottom" secondItem="5CU-VV-RB2" secondAttribute="bottom" id="qBY-mL-0mB"/>
                                             <constraint firstAttribute="trailing" secondItem="5CU-VV-RB2" secondAttribute="trailing" id="tAj-bN-kTn"/>
                                         </constraints>
@@ -135,6 +132,7 @@ If you read it until here, congratulations! If you liked the post and by any cha
                             <constraint firstItem="Qxc-1d-N9Z" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="FVd-V6-sKf"/>
                             <constraint firstItem="Qxc-1d-N9Z" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="ROc-S9-qQV"/>
                             <constraint firstItem="Qxc-1d-N9Z" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="mFL-wU-ruj"/>
+                            <constraint firstItem="1aC-nP-YP5" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" priority="900" id="rxm-fO-eRH"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
