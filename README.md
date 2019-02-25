@@ -1,4 +1,5 @@
-# ios-parallax-constraints
+# iOS Parallax Constraints
+
 How to create an awesome parallax effect using just constraints
 
 This is the sample code for the following Medium post:
